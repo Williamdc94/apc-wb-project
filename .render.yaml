@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: apc-wb-project
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
